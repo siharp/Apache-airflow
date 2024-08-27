@@ -1,0 +1,7 @@
+test.txt
+/dags/__pycache__/
+/config/
+/plugins/
+/logs/
+/example_dag/
+/sql/
