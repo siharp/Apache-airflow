@@ -5,3 +5,4 @@ test.txt
 /logs/
 /example_dag/
 /sql/
+/.env

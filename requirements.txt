@@ -1,13 +1,2 @@
-dbt-postgres==1.0.5
-markupsafe==2.0.1
-apache-airflow-providers-odbc
-pyodbc
-apache-airflow-providers-microsoft-mssql
-apache-airflow-providers-microsoft-mssql[odbc]
-apache-airflow-providers-microsoft-azure
-gitpython
-apache-airflow-providers-airbyte[http]
-apache-airflow-providers-airbyte
 airflow-dbt
-plyvel
-pyarrow==10.0.1
+dbt-postgres
