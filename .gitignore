@@ -4,5 +4,4 @@ test.txt
 /plugins/
 /logs/
 /example_dag/
-/sql/
 /.env

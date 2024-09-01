@@ -20,7 +20,11 @@ dag = DAG(
     start_date= datetime(2023,12,15)
 )
 
-task1 = BashOperator(task_id='first_task', bash_command="echo '{{execution_date.strftime(\'%Y-%m\')}}' ", dag=dag)
+task1 = BashOperator(
+    task_id='first_task', 
+    bash_command="echo '{{execution_date.strftime(\'%Y-%m\')}}' ", 
+    dag=dag)
+
 task2 = PythonOperator(
     task_id = 'testkwargst',
     python_callable=hello,
